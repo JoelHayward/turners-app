@@ -1,10 +1,11 @@
 // import { Link } from "react-router-dom";
-import axios from "axios";
-import React, { useState } from "react";
-import './search.css'
+// import axios from "axios";
+// import { useState } from "react";
+import React from "react";
+import "./search.css";
 
 export default function Search() {
-  const [image, setImage] = useState(null);
+  // const [image, setImage] = useState(null);
 
   //UPLOAD THE IMAGE TO SERVER
   // const handleUpload = () => {
@@ -20,10 +21,7 @@ export default function Search() {
   //   setImage(formData);
   // };
 
-//Drop zone image
-
-
-
+  //Drop zone image
 
   return (
     <div>
@@ -41,10 +39,10 @@ export default function Search() {
       <div className="searchsection">
       // <div className="dropzone">
       //   {/* <div className="dropzone-thumb" data-label="myFile.txt"></div> */}
-          {/* <span className="dropzone__promt">Drop file here or click to upload</span>
+      {/* <span className="dropzone__promt">Drop file here or click to upload</span>
           <input className="drop-zone-input" name="myFile" type="file" onChange={getFileInfo}></input>
         </div> */}
-      
+
       {/* </div>
       <div>
         <input className="choosefile" type="file" onChange={getFileInfo}></input>
@@ -56,4 +54,4 @@ export default function Search() {
        */}
     </div>
   );
-} 
+}
