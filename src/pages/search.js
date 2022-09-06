@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import axios from "axios";
 import React, { useState } from "react";
-import logo from '../images/turnerslogo.jpg'
-import footer from '../images/turnersfooter.png'
 import './search.css'
 
 export default function Search() {
@@ -29,7 +27,7 @@ export default function Search() {
 
   return (
     <div>
-      <div className="header">
+      {/* <div className="header">
         <img src={logo} alt="logo"></img>
         <div className="contact-head">
           <p>0800 887 637</p>
@@ -41,13 +39,13 @@ export default function Search() {
       </nav>
       
       <div className="searchsection">
-      <div className="dropzone">
-        {/* <div className="dropzone-thumb" data-label="myFile.txt"></div> */}
-          <span className="dropzone__promt">Drop file here or click to upload</span>
+      // <div className="dropzone">
+      //   {/* <div className="dropzone-thumb" data-label="myFile.txt"></div> */}
+          {/* <span className="dropzone__promt">Drop file here or click to upload</span>
           <input className="drop-zone-input" name="myFile" type="file" onChange={getFileInfo}></input>
-        </div>
+        </div> */}
       
-      </div>
+      {/* </div>
       <div>
         <input className="choosefile" type="file" onChange={getFileInfo}></input>
         <button className="sendfile" onClick={handleUpload}>Upload Image</button>
@@ -55,7 +53,7 @@ export default function Search() {
       <div>
         <img className="footer" src={footer} alt="footer"></img>
       </div>
-      
+       */}
     </div>
   );
-}
+} 
