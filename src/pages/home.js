@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <img class={homestyles.Frame131} src={bannerimg}></img>
+        <img class={homestyles.Frame131} src={bannerimg} alt="woman sitting in a car"></img>
         <span class={homestyles.Protectyouandyourlovedones}>
           Protect you and your loved ones
         </span>
@@ -101,7 +101,7 @@ export default function Home() {
         >
           <div class={homestyles.GetaQuote}>
             <span class={homestyles.GetaQuote2}>Get a Quote</span>
-            <img class={homestyles.Vector3} src={whiteSideArrow}></img>
+            <img class={homestyles.Vector3} src={whiteSideArrow} alt="Arrow to get a quote"></img>
           </div>
         </Link>
         <Button
@@ -111,7 +111,7 @@ export default function Home() {
         >
           <div class={homestyles.RetrieveQuote}>
             <span class={homestyles.RetrieveQuote2}>Retrieve Quote</span>
-            <img class={homestyles.Vector4} src={greySideArrow}></img>
+            <img class={homestyles.Vector4} src={greySideArrow} alt="Arrow to retrieve a quote"></img>
           </div>
         </Button>
         <Modal
