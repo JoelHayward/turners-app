@@ -66,6 +66,14 @@ export default function FormOne() {
                 <span class={FormCSS.Business1}>Business</span>
               </div>
             </div>
+            <div class={FormCSS.CarParked}>
+            <span class={FormCSS.location}>
+  10 Garnet Road, Auckland, 1022
+</span>
+            </div>
+            <span class={FormCSS.EnterManually}>
+  Enter Manually
+</span>
           </div>
         </div>
       </div>

@@ -217,10 +217,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 203px; */
-  height: 60px;
+  width: 50px;
+  height: 200px;
   margin: 0 130px 47.3px 180px;
-  /* padding: 18.5px 64.5px; */
+  padding: 18.5px 64.5px;
   border-radius: 20px;
   border: solid 3px #b9b9b9;
 }
@@ -332,4 +332,46 @@
   color: #404048;
 }
 
+.CarParked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+  flex-grow: 0;
+  margin: 80px 0 0px 185px;
+  padding: 17.2px 100px 19.8px 28px;
+  border-radius: 20px;
+  border: solid 3px #b9b9b9;
+}
 
+.location{
+  width: 287px;
+  height: 23px;
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+.EnterManually {
+  /* width: 100px; */
+  height: 18px;
+  margin: 8.9px 0 0 20.6px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #404048;
+  text-decoration: underline;
+}
