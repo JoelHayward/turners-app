@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1059px;
+  /* width: 1059px; */
   height: 144px;
   margin: 9px 408.4px 101.3px 65.6px;
   padding: 15px 60px 15px 50.4px;
@@ -59,7 +59,7 @@
 }
 
 .Areyouanexistingcustomer {
-  width: 270px;
+  /* width: 270px; */
   height: 23px;
   margin: 18.5px 210px 18.5px 0;
   font-family: Roboto;
@@ -121,7 +121,7 @@
 }
 
 .CarDetails {
-  width: 118px;
+  /* width: 118px; */
   height: 28px;
   margin: 98.7px 9.8px 40px -1390px;
   font-family: Roboto;
@@ -137,7 +137,7 @@
 
 .Rectangle3608 {
   display: flex;
-  width: 1059px;
+  /* width: 1059px; */
   height: 515px;
   margin: 5.6px 408.4px 99.4px 65.6px;
   padding: 36.9px 58px 69.2px 50.4px;
@@ -153,7 +153,7 @@
 }
 
 .Enteryoucarsregistrationnumber {
-  width: 312px;
+  /* width: 312px; */
   height: 23px;
   margin: 18.5px 168px 65.8px 0;
   font-family: Roboto;
@@ -168,7 +168,7 @@
 }
 
 .DidyoubuythiscarfromTurners {
-  width: 306px;
+  /* width: 306px; */
   height: 23px;
   margin: 65.5px 174px 66.2px 0;
   font-family: Roboto;
@@ -183,7 +183,7 @@
 }
 
 .Whatisthemainuseofthiscar {
-  width: 292px;
+  /* width: 292px; */
   height: 23px;
   margin: 65.2px 3px 66.5px 0;
   font-family: Roboto;
@@ -198,7 +198,7 @@
 }
 
 .Whereisthecarmainlyparked {
-  width: 285px;
+  /* width: 285px; */
   height: 23px;
   margin: 64.8px 10px 28.4px 0;
   font-family: Roboto;
@@ -217,7 +217,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 203px;
+  /* width: 203px; */
   height: 60px;
   margin: 0 130px 47.3px 180px;
   /* padding: 18.5px 64.5px; */
