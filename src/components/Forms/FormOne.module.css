@@ -1,5 +1,6 @@
 .mainForm {
   display: flex;
+  margin-top: 100px;
 }
 
 /* CHECK MARKS */
@@ -7,9 +8,9 @@
   width: 56px;
   height: 56px;
   flex-grow: 0;
-  margin: 82px 65.6px 9px 311px;
+  margin: -50px 40px 9px 211px;
   padding: 16.7px 11.2px 15.9px 12px;
-  background-color: #c2c2c2;
+  /* background-color: #c2c2c2; */
 }
 
 .CheckVector {
@@ -31,7 +32,7 @@
 .Alreadyamember {
   width: 209px;
   height: 28px;
-  margin: 98.7px 9.8px 20.3px 65.6px;
+  margin: 98.7px 9.8px 40px -1300px;
   font-family: Roboto;
   font-size: 24px;
   font-weight: bold;
@@ -45,10 +46,12 @@
 
 .Rectangle3609 {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 1059px;
   height: 144px;
   margin: 9px 408.4px 101.3px 65.6px;
-  padding: 15px 295.5px 15px 50.4px;
+  padding: 15px 60px 15px 50.4px;
   border-radius: 20px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   border: solid 1px #b9b9b9;
@@ -72,15 +75,20 @@
 
 .answer {
   display: flex;
+  margin-left: 180px;
 }
 
 .Rectangle3610 {
-  width: 118px;
-  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 20px;
   flex-grow: 0;
-  margin: 0 115.1px 0 0;
   padding: 18.5px 38.9px 18.5px 46.1px;
   border: solid 3px #b9b9b9;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .Yes {
@@ -99,11 +107,229 @@
 }
 
 .Rectangle3611 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 20px;
+  flex-grow: 0;
+  padding: 18.5px 44.5px 18.5px 47.5px;
+  /* box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+  border: solid 3px #b9b9b9;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.CarDetails {
   width: 118px;
+  height: 28px;
+  margin: 98.7px 9.8px 40px -1390px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+.Rectangle3608 {
+  display: flex;
+  width: 1059px;
+  height: 515px;
+  margin: 5.6px 408.4px 99.4px 65.6px;
+  padding: 36.9px 58px 69.2px 50.4px;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border: solid 1px #b9b9b9;
+  background-color: #fff;
+}
+
+.QuestionColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.Enteryoucarsregistrationnumber {
+  width: 312px;
+  height: 23px;
+  margin: 18.5px 168px 65.8px 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+.DidyoubuythiscarfromTurners {
+  width: 306px;
+  height: 23px;
+  margin: 65.5px 174px 66.2px 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+.Whatisthemainuseofthiscar {
+  width: 292px;
+  height: 23px;
+  margin: 65.2px 3px 66.5px 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+.Whereisthecarmainlyparked {
+  width: 285px;
+  height: 23px;
+  margin: 64.8px 10px 28.4px 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+
+.Rectangle1234 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 203px;
+  height: 60px;
+  margin: 0 130px 47.3px 180px;
+  /* padding: 18.5px 64.5px; */
+  border-radius: 20px;
+  border: solid 3px #b9b9b9;
+}
+
+.ABC123 {
+  width: 74px;
+  height: 23px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+.Rectangle4610 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 20px;
+  flex-grow: 0;
+  padding: 18.5px 38.9px 18.5px 46.1px;
+  border: solid 3px #b9b9b9;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 50px;
+}
+
+.Rectangle4611 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 20px;
+  flex-grow: 0;
+  padding: 18.5px 44.5px 18.5px 47.5px;
+  /* box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+  border: solid 3px #b9b9b9;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 50px;
+}
+
+.PersonalORBusiness {
+  display: flex;
+}
+
+.Rectangle3612 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
   height: 60px;
   flex-grow: 0;
-  margin: 0 0 0 115.1px;
-  padding: 18.5px 44.5px 18.5px 47.5px;
-  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background-color: #0071c4;
+  border: solid 3px #b9b9b9;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin: 80px 0px 0 180px;
+  /* padding: 18.5px 47.9px 18.5px 47.1px; */
+  /* box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+  /* background-color: #0071c4; */
 }
+
+.Personal {
+  /* width: 80px;
+  height: 23px; */
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+.Rectangle3613 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 178px;
+  height: 60px;
+  flex-grow: 0;
+  margin: 80px 0 0 0px;
+  /* padding: 18.5px 48.9px 18.5px 47.1px; */
+  border: solid 3px #b9b9b9;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Business1 {
+  /* width: 82px;
+  height: 23px; */
+  flex-grow: 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+
