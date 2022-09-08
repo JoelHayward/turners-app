@@ -27,11 +27,7 @@ export default function FormPage() {
         <span class={formPage.YourDetails}>Your Details</span>
         <span class={formPage.Finalise}>Finalise</span>
       </div>
-      {/* LOAD BAR JSX */}
-      <div className={formPage.loadBar}>
-        <div class={formPage.Line21}></div>
-        <div class={formPage.Ellipse4}></div>
-      </div>
+    
 
       {/* FORM RENDERING */}
       <FormOne />
