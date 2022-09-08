@@ -710,5 +710,6 @@ align-items: center;
   }
 
   .saveNext {
+    width: 300px;
     display: flex;
   }
