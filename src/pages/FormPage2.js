@@ -9,10 +9,9 @@ import IGVector from "../icons/IGVectorWhite.svg";
 import EmailVector from "../icons/EmailVectorWhite.svg";
 import WhiteLogo from "../icons/WhiteLogo.svg";
 import RedMark from "../icons/RedQuestionMark.svg";
-import FormOne from "../components/Forms/FormOne.js";
+import FormTwo from "../components/Forms/FormTwo.js";
 
-
-export default function FormPage() {
+export default function FormPage2() {
   return (
     <div class={formPage.CoverDetails1}>
       {/* HEADER BAR JSX */}
@@ -33,8 +32,8 @@ export default function FormPage() {
     
 
       {/* FORM RENDERING */}
-      <FormOne />
-      {/* <FormTwo/> */}
+      {/* <FormOne /> */}
+      <FormTwo/>
 
       {/* FOOTER BAR JSX */}
       <div class={formPage.Frame14}>
@@ -60,7 +59,7 @@ export default function FormPage() {
               alt="Got to Facebook"
             ></img>
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer" >
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">
             <img
               class={formPage.IGVector}
               src={IGVector}

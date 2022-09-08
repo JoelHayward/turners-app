@@ -6,6 +6,7 @@ import translate from "../icons/translate.svg";
 import whiteSideArrow from "../icons/whiteSideArrow.svg";
 import greySideArrow from "../icons/greySideArrow.svg";
 import logo from "../images/logo.png";
+// import footer from "../images/homepageFooter.png";
 import bannerimg from "../images/BannerImage.png";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -154,6 +155,9 @@ export default function Home() {
       <div>
         <Chatbot></Chatbot>
       </div>
+      {/* <div>
+  <img src={footer} alt="home page footer"></img>
+</div> */}
     </div>
   );
 }
