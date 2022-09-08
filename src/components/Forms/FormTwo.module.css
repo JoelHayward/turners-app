@@ -83,6 +83,14 @@
     background-color: #b1a6a8;
   }
 
+
+  .Arrow2 {
+    width: 2px;
+    height: 350px;
+    margin: 9px 92.6px 12px 250px;
+    transform: rotate(-270);
+    background-color: #b3b3b3;
+  }
 /* MAIN PAGE */
 
 .mainPage {
@@ -97,7 +105,7 @@
     width: 56px;
     height: 56px;
     flex-grow: 0;
-    margin: 0px 40px 9px 211px;
+    margin: -80px 40px 9px 211px;
     padding: 16.7px 11.2px 15.9px 12px;
     /* background-color: #c2c2c2; */
   }
@@ -110,7 +118,7 @@
   
   .Arrow1 {
     width: 2px;
-    height: 599px;
+    height: 1000px;
     margin: 9px 92.6px 12px 250px;
     transform: rotate(-270);
     background-color: #b3b3b3;
@@ -120,7 +128,7 @@
     width: 56px;
     height: 56px;
     flex-grow: 0;
-    margin: 50px 40px 9px 211px;
+    margin: 0px 40px 0px 211px;
     padding: 16.7px 11.2px 15.9px 12px;
     /* background-color: #c2c2c2; */
   }
@@ -168,7 +176,7 @@ align-items: center;
     width: 199.4px;
     height: 34.8px;
     flex-grow: 0;
-    margin: 50px 64.6px 0px 350px;
+    margin: 60px 64.6px 0px 350px;
     padding: 6px 39.4px 8.8px 39px;
     border-radius: 20px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -185,7 +193,7 @@ align-items: center;
     gap: 36px;
     width: 329px;
     height: 616px;
-    margin: -100px 10px 0px 26px;
+    margin: -280px 10px 0px 26px;
     padding: 42px 39.6px 120px 39.6px;
     border-radius: 20px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -471,7 +479,7 @@ align-items: center;
   .ConfirmationButton {
     width: 35px;
     height: 35px;
-    margin: -60px 20px 78px 1150px;
+    margin: -280px 20px 78px 1150px;
     border-radius: 20px;
     border: solid 4px #b9b9b9;
     background-color: #fff;
@@ -480,7 +488,7 @@ align-items: center;
   .Confirmselectedplan {
     width: 236px;
     height: 28px;
-    margin: -50px 50px 89px 20px;
+    margin: -265px 50px 89px 20px;
     font-family: Roboto;
     font-size: 24px;
     font-weight: 500;
@@ -490,4 +498,217 @@ align-items: center;
     letter-spacing: normal;
     text-align: left;
     color: #404048;
+  }
+
+  /* SECOND FRAME */
+
+  .extrabenefits {
+    width: 270px;
+    height: 28px;
+    margin: 60px 900px 0px 0px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404048;
+  }
+
+  .addarrow {
+    display: flex;
+  }
+
+  .secondFrame {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 301px;
+    margin: 20px 0px 28px 0px;
+    padding: 39px 50.9px 63px 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: solid 1px #b9b9b9;
+    background-color: #fff;
+  }
+
+  .Mechanicaladdtion {
+    margin: 20px 0px 10px 0px;
+  }
+
+  .MechanicalBreakdown {
+    width: 301px;
+    height: 23px;
+    margin: 50px 10px 12px 0;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404048;
+  }
+
+  .GreyMark {
+    width: 24px;
+    height: 24px;
+    
+  }
+
+  .Unlimitedcallouts {
+    width: 213px;
+    height: 23px;
+    margin: 8px 98px 63px -25px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404048;
+  }
+
+  .windsreenaddtion {
+    margin: 180px 0px 10px 19px;
+  }
+
+  .windscreen {
+     width: 378px; 
+     height: 23px; 
+    margin: 200px 0px 10px 19px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404048;
+  }
+
+  .addBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 162.1px;
+    height: 60px;
+    margin: 20px 50px 100px 378px;
+    padding: 10.5px 36.1px 10.5px 23.5px;
+    border-radius: 20px;
+    border: solid 1px #b9b9b9;
+    background-color: #fff;
+  }
+
+  .addVector {
+    width: 19.5px;
+    height: 19.5px;
+    background-color: #404048;
+  }
+
+  .Add {
+    width: 36px;
+    height: 23px;
+    margin: 7.5px 0 8.5px 27.5px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404048;
+  }
+
+  /* BOTTOM BUTTONS */
+
+  .backBtn {
+    width: 200px;
+    height: 70px;
+    margin: 0px 164.5px 137px 350px;
+    padding: 24px 72px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: solid 1px #b9b9b9;
+    background-color: #fff;
+  }
+
+  .Back {
+    width: 56px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #404048;
+  }
+
+  .saveBtn{
+    width: 200px;
+    height: 70px;
+    margin: 0px 20px 137px 500px;
+    padding: 23px 78px 24px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: solid 1px #b9b9b9;
+    background-color: #fff;
+  }
+
+  .Save {
+    width: 44px;
+    height: 23px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404048;
+  }
+
+  .nextBtn {
+    width: 200px;
+    height: 70px;
+    margin: 0px 428px 137px 20px;
+    padding: 23px 66px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: solid 1px #b9b9b9;
+    background-color: #0071c4;
+  }
+
+  .Next {
+    /* width: 68px;
+    height: 24px; */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+
+  .bottombuttons {
+    display: flex;
+  }
+
+  .saveNext {
+    display: flex;
   }

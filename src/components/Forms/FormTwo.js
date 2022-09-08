@@ -22,22 +22,19 @@ export default function () {
         <div className={styles.Line25}></div>
       </div>
       <div className={styles.Quotetitle}>
-          <span class={styles.YourQuote}>Your Quote</span>
-          <img className={styles.redAsterix} src={redAsterix}></img>
-          <div class={styles.Rectangle3609}>
-            <span class={styles.MostPopular}>Most Popular</span>
-          </div>
-          </div>
+        <span class={styles.YourQuote}>Your Quote</span>
+        <img className={styles.redAsterix} src={redAsterix}></img>
+        <div class={styles.Rectangle3609}>
+          <span class={styles.MostPopular}>Most Popular</span>
+        </div>
+      </div>
       <div className={styles.mainPage}>
         <div>
           <div className={styles.Ellipse6}>
             <img className="CheckVector" src={CheckGrey}></img>
           </div>
           <div className={styles.Arrow1}></div>
-          <div className={styles.Ellipse7}>
-            <img className="CheckVector" src={CheckGrey}></img>
-          </div>
-          <div className={styles.Arrow2}></div>
+          
         </div>
 
         <div className={styles.mainContent}>
@@ -131,57 +128,117 @@ export default function () {
             </div>
           </div>
           <div class={styles.Frame90}>
-          <div class={styles.Ellipse26}></div>
-          <span class={styles.ThirdParty2}>
-  Third Party
-Fire & Theft
-</span>
-<span class={styles.textstyle2}>$60</span>
-<span class={styles.Permonth}>
-  Per month
-</span>
-<div className={styles.details}>
-<div className={styles.packageDetailsImg}>
-                  <img
-                    class={styles.Ellipse29}
-                    src={towing}
-                    alt="car being towed"
-                  ></img>
-                  <img
-                    class={styles.Ellipse29}
-                    src={crash}
-                    alt="two cars crashing"
-                  ></img>
-                  <img
-                    class={styles.Ellipse29}
-                    src={crash}
-                    alt="two cars crashing"
-                  ></img>
-                  </div>
-                  <div className={styles.packageDetails2}>
-                  <span class={styles.Accidentaldamage}>
-                    Accidental loss or damage to your car
-                  </span>
-                  <span class={styles.DamangeOthersCar}>
-                    Damange to someone else’s car
-                  </span>
-                  <span class={styles.Naturaldisaster}>
-                    Natural disaster damage
-                  </span>
-                  </div>
-                  </div>
-
+            <div class={styles.Ellipse26}></div>
+            <span class={styles.ThirdParty2}>Third Party Fire & Theft</span>
+            <span class={styles.textstyle2}>$60</span>
+            <span class={styles.Permonth}>Per month</span>
+            <div className={styles.details}>
+              <div className={styles.packageDetailsImg}>
+                <img
+                  class={styles.Ellipse29}
+                  src={towing}
+                  alt="car being towed"
+                ></img>
+                <img
+                  class={styles.Ellipse29}
+                  src={crash}
+                  alt="two cars crashing"
+                ></img>
+                <img
+                  class={styles.Ellipse29}
+                  src={crash}
+                  alt="two cars crashing"
+                ></img>
+              </div>
+              <div className={styles.packageDetails2}>
+                <span class={styles.Accidentaldamage}>
+                  Accidental loss or damage to your car
+                </span>
+                <span class={styles.DamangeOthersCar}>
+                  Damange to someone else’s car
+                </span>
+                <span class={styles.Naturaldisaster}>
+                  Natural disaster damage
+                </span>
+              </div>
+            </div>
           </div>
-          
         </div>
-        
       </div>
       <div className={styles.confirm}>
-          <div class={styles.ConfirmationButton}></div>
-          <span class={styles.Confirmselectedplan}>
-  Confirm selected plan
-</span>
+        <div class={styles.ConfirmationButton}></div>
+        <span class={styles.Confirmselectedplan}>Confirm selected plan</span>
+      </div>
+      {/* SECOND FRAME */}
+      <span class={styles.extrabenefits}>
+        Choose optional benefits
+      </span>
+      <div className={styles.addarrow}>
+      <div>
+      <div className={styles.Ellipse7}>
+            <img className="CheckVector" src={CheckGrey}></img>
           </div>
+          <div className={styles.Arrow2}></div>
+      </div>
+      <div class={styles.secondFrame}>
+        <div>
+          <div className={styles.Mechanicaladdtion}>
+            <span class={styles.MechanicalBreakdown}>
+              Mechanical Breakdown Insurance
+            </span>
+            <img
+              class={styles.GreyMark}
+              src={GreyMark}
+              alt="extra information"
+            ></img>
+          </div>
+          <span class={styles.Unlimitedcallouts}>Unlimited callouts, 24/7</span>
+          <div className={styles.windsreenaddtion}>
+            <span class={styles.windscreen}>
+              Excess-free windscreen and window glass
+            </span>
+            <img
+              class={styles.GreyMark}
+              src={GreyMark}
+              alt="extra information"
+            ></img>
+          </div>
+        </div>
+        <div>
+          <div class={styles.addBtn}>
+            <div class={styles.addVector}></div>
+            <span class={styles.Add}>Add</span>
+          </div>
+          <div class={styles.addBtn}>
+            <div class={styles.addVector}></div>
+            <span class={styles.Add}>Add</span>
+          </div>
+        </div>
+      </div>
+      </div>
+<div className={styles.bottombuttons}>
+<button class={styles.backBtn}>
+<span class={styles.Back}>
+  Back
+</span>
+</button>
+<div className={styles.saveNext}>
+<button class={styles.saveBtn}>
+<span class={styles.Save}>
+  Save
+</span>
+</button>
+<button class={styles.nextBtn}>
+<span class={styles.Next}>
+  Next
+</span>
+</button>
+</div>
+</div>
+
+
+
+
     </div>
   );
 }
