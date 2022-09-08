@@ -18,7 +18,7 @@ export default function FormPage() {
       <div class={formPage.NavigationBar}>
         <img class={formPage.image1} src={logo} alt="Turners logo"></img>
         <span class={formPage.Help}>Help</span>
-        <img class={formPage.redQuestionMark} src={RedMark}></img>
+        <img class={formPage.redQuestionMark} src={RedMark} alt=""></img>
       </div>
       {/* NAV BAR JSX */}
       <div class={formPage.Frame88}>
@@ -49,14 +49,14 @@ export default function FormPage() {
               alt="Return to home page"
             ></img>
           </NavLink>
-          <a href="https://facebook.com" target="_blank" rel="Facebook">
+          <a href="https://facebook.com" target="_blank">
             <img
               class={formPage.FBVector}
               src={FBVector}
               alt="Got to Facebook"
             ></img>
           </a>
-          <a href="https://instagram.com" target="_blank" rel="Instagram">
+          <a href="https://instagram.com" target="_blank">
             <img
               class={formPage.IGVector}
               src={IGVector}

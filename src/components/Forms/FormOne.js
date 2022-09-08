@@ -32,14 +32,14 @@ const select = () => {
       {/* CHECK MARKS */}
       <div>
         <div className={FormCSS.Ellipse5}>
-          <img className="CheckVector" src={CheckGrey}></img>
+          <img className="CheckVector" src={CheckGrey} alt=""></img>
         </div>
         <div className={FormCSS.Ellipse6}>
-          <img className="CheckVector" src={CheckGrey}></img>
+          <img className="CheckVector" src={CheckGrey} alt=""></img>
         </div>
         <div className={FormCSS.Arrow1}></div>
         <div className={FormCSS.Ellipse7}>
-          <img className="CheckVector" src={CheckGrey}></img>
+          <img className="CheckVector" src={CheckGrey} alt=""></img>
         </div>
         <div className={FormCSS.Arrow2}></div>
       </div>
@@ -137,7 +137,7 @@ const select = () => {
                 <span className={FormCSS.adddriver}>Add another driver?</span>
               </div>
 
-              <img src={GreyMark}></img>
+              <img src={GreyMark} alt=""></img>
             </div>
           </div>
           <div className={FormCSS.column2}>
