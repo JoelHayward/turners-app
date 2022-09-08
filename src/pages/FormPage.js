@@ -10,6 +10,7 @@ import EmailVector from "../icons/EmailVectorWhite.svg";
 import WhiteLogo from "../icons/WhiteLogo.svg";
 import RedMark from "../icons/RedQuestionMark.svg";
 import FormOne from "../components/Forms/FormOne.js";
+import FormTwo from "../components/Forms/FormTwo.js";
 
 export default function FormPage() {
   return (
@@ -30,7 +31,8 @@ export default function FormPage() {
     
 
       {/* FORM RENDERING */}
-      <FormOne />
+      {/* <FormOne /> */}
+      <FormTwo/>
 
       {/* FOOTER BAR JSX */}
       <div class={formPage.Frame14}>
