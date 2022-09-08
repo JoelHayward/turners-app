@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
 import styles from "./FormTwo.module.css";
 import CheckGrey from "../../icons/CheckVectorGrey.svg";
 import GreyMark from "../../icons/greyQuestionMark.svg";
@@ -6,7 +7,18 @@ import redAsterix from "../../icons/redStar.svg";
 import crash from "../../icons/crash.svg";
 import towing from "../../icons/towing.svg";
 
+
 export default function () {
+
+  const navigate = useNavigate(); 
+
+  const navigateFormPage = () => {
+      navigate('/FormPage')
+  }; 
+
+  const navigateDetails = () => {
+      navigate('/Details')
+  }; 
   return (
     <div>
       {/* LOAD BAR JSX */}
@@ -23,7 +35,7 @@ export default function () {
       </div>
       <div className={styles.Quotetitle}>
         <span class={styles.YourQuote}>Your Quote</span>
-        <img className={styles.redAsterix} src={redAsterix}></img>
+        <img className={styles.redAsterix} src={redAsterix} alt="required content"></img>
         <div class={styles.Rectangle3609}>
           <span class={styles.MostPopular}>Most Popular</span>
         </div>
@@ -31,10 +43,9 @@ export default function () {
       <div className={styles.mainPage}>
         <div>
           <div className={styles.Ellipse6}>
-            <img className="CheckVector" src={CheckGrey}></img>
+            <img className="CheckVector" src={CheckGrey} alt="progress bar"></img>
           </div>
           <div className={styles.Arrow1}></div>
-          
         </div>
 
         <div className={styles.mainContent}>
@@ -166,79 +177,72 @@ export default function () {
         </div>
       </div>
       <div className={styles.confirm}>
-        <div class={styles.ConfirmationButton}></div>
+        <div className={styles.ConfirmationButton}></div>
         <span class={styles.Confirmselectedplan}>Confirm selected plan</span>
       </div>
       {/* SECOND FRAME */}
-      <span class={styles.extrabenefits}>
-        Choose optional benefits
-      </span>
+      <span class={styles.extrabenefits}>Choose optional benefits</span>
       <div className={styles.addarrow}>
-      <div>
-      <div className={styles.Ellipse7}>
-            <img className="CheckVector" src={CheckGrey}></img>
+        <div>
+          <div className={styles.Ellipse7}>
+            <img className="CheckVector" src={CheckGrey} alt="form progress bar"></img>
           </div>
           <div className={styles.Arrow2}></div>
-      </div>
-      <div class={styles.secondFrame}>
-        <div>
-          <div className={styles.Mechanicaladdtion}>
-            <span class={styles.MechanicalBreakdown}>
-              Mechanical Breakdown Insurance
+        </div>
+        <div class={styles.secondFrame}>
+          <div>
+            <div className={styles.Mechanicaladdtion}>
+              <span class={styles.MechanicalBreakdown}>
+                Mechanical Breakdown Insurance
+              </span>
+              <img
+                class={styles.GreyMark}
+                src={GreyMark}
+                alt="extra information"
+              ></img>
+            </div>
+            <span class={styles.Unlimitedcallouts}>
+              Unlimited callouts, 24/7
             </span>
-            <img
-              class={styles.GreyMark}
-              src={GreyMark}
-              alt="extra information"
-            ></img>
+            <div className={styles.windsreenaddtion}>
+              <span class={styles.windscreen}>
+                Excess-free windscreen and window glass
+              </span>
+              <img
+                class={styles.GreyMark}
+                src={GreyMark}
+                alt="extra information"
+              ></img>
+            </div>
           </div>
-          <span class={styles.Unlimitedcallouts}>Unlimited callouts, 24/7</span>
-          <div className={styles.windsreenaddtion}>
-            <span class={styles.windscreen}>
-              Excess-free windscreen and window glass
-            </span>
-            <img
-              class={styles.GreyMark}
-              src={GreyMark}
-              alt="extra information"
-            ></img>
+          <div>
+            <div class={styles.addBtn}>
+              <div class={styles.addVector}></div>
+              <span class={styles.Add}>Add</span>
+            </div>
+            <div class={styles.addBtn}>
+              <div class={styles.addVector}></div>
+              <span class={styles.Add}>Add</span>
+            </div>
           </div>
         </div>
-        <div>
-          <div class={styles.addBtn}>
-            <div class={styles.addVector}></div>
-            <span class={styles.Add}>Add</span>
-          </div>
-          <div class={styles.addBtn}>
-            <div class={styles.addVector}></div>
-            <span class={styles.Add}>Add</span>
-          </div>
+      </div>
+      <div className={styles.bottombuttons}>
+        
+          <button onClick={navigateFormPage} class={styles.backBtn}>
+            <span class={styles.Back}>Back</span>
+          </button>
+       
+        <div className={styles.saveNext}>
+          <button class={styles.saveBtn}>
+            <span class={styles.Save}>Save</span>
+          </button>
+
+          <button onClick={navigateDetails} class={styles.nextBtn}>
+            <span class={styles.Next}>Next</span>
+          </button>
         </div>
       </div>
-      </div>
-<div className={styles.bottombuttons}>
-<button class={styles.backBtn}>
-<span class={styles.Back}>
-  Back
-</span>
-</button>
-<div className={styles.saveNext}>
-<button class={styles.saveBtn}>
-<span class={styles.Save}>
-  Save
-</span>
-</button>
-<button class={styles.nextBtn}>
-<span class={styles.Next}>
-  Next
-</span>
-</button>
-</div>
-</div>
-
-
-
-
     </div>
   );
 }
