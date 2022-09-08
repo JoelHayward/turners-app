@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from "./pages/home.js";
-import Search from "./pages/search.js";
+import FormPage from "./pages/FormPage";
 function App() {
 
 
@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/search" element={<Search />} />
+          <Route path="/FormPage" element={<FormPage />} />
         </Routes>
       </BrowserRouter>
     </div>
