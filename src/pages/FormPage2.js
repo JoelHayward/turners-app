@@ -52,14 +52,14 @@ export default function FormPage2() {
               alt="Return to home page"
             ></img>
           </NavLink>
-          <a href="https://facebook.com" target="_blank" rel="external nofollow">
+          <a href="https://facebook.com" target="_blank" rel="noreferrer">
             <img
               class={formPage.FBVector}
               src={FBVector}
               alt="Got to Facebook"
             ></img>
           </a>
-          <a href="https://instagram.com" target="_blank" rel="external nofollow">
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">
             <img
               class={formPage.IGVector}
               src={IGVector}

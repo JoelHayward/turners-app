@@ -8,7 +8,7 @@ import crash from "../../icons/crash.svg";
 import towing from "../../icons/towing.svg";
 
 
-export default function () {
+export default function FormTwo() {
 
   const navigate = useNavigate(); 
 
