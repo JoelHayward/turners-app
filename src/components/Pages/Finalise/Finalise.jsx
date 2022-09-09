@@ -30,36 +30,53 @@ export default function Finalise() {
     const [activeColor1, setActiveColor1] = useState({})
     const [activeColor2, setActiveColor2] = useState({})
     const [activeColor3, setActiveColor3] = useState({})
+    const [activeDot1, setActiveDot1] = useState({})
+    const [activeDot2, setActiveDot2] = useState({})
+    const [activeDot3, setActiveDot3] = useState({})
 
     const activeBorder = "solid red 2px"
+    const activeBackground = '#b71335'
+
 
  const selectPrice1 = () => {
         if (activeColor1 === activeBorder) {
-            setActiveColor1('')      
+            setActiveColor1('')   
+            setActiveDot1('')    
         } else {
             setActiveColor1(activeBorder)
+            setActiveDot1(activeBackground)
             setActiveColor2('')
             setActiveColor3('')
+            setActiveDot2('')
+            setActiveDot3('')
         }
     } 
 
     const selectPrice2 = () => {
         if (activeColor2 === activeBorder) {
             setActiveColor2('')      
+            setActiveDot2('')    
         } else {
             setActiveColor2(activeBorder)
+            setActiveDot2(activeBackground)
             setActiveColor1('')
             setActiveColor3('')
+            setActiveDot1('')
+            setActiveDot3('')
         }
     }
 
     const selectPrice3 = () => {
         if (activeColor3 === activeBorder) {
-            setActiveColor3('')      
+            setActiveColor3('')  
+            setActiveDot3('')    
         } else {
             setActiveColor3(activeBorder)
+            setActiveDot3(activeBackground)
             setActiveColor2('')
             setActiveColor1('')
+            setActiveDot2('')
+            setActiveDot1('')
         }
     }
           
@@ -142,20 +159,20 @@ export default function Finalise() {
                 <div className={Styles.paymentPlanLeft} style={{border: activeColor1}} onClick={selectPrice1}>
     
                     <div className={Styles.SaveMoneyBanner}> <b> Save $50 </b> </div>
-                    <span className={Styles.PaymentDot}></span>
+                    <span className={Styles.PaymentDot} style={{background: activeDot1}}></span>
                     <span className={Styles.paymentHeader}><b>Annually</b></span>
                     <span className={Styles.paymentPrice}>$765 </span>
                     <span className={Styles.paymentTimeline}>Every Year</span>
                 </div>
                 
                 <div className={Styles.PaymentPlanCentre} style={{border: activeColor2}} onClick={selectPrice2}>
-                    <span className={Styles.PaymentDot}></span>
+                    <span className={Styles.PaymentDot} style={{background: activeDot2}}></span>
                     <span className={Styles.paymentHeader}> <b> Quarterly</b></span>
                     <span className={Styles.paymentPrice}>$204</span>
                     <span className={Styles.paymentTimeline}>Every 3 Months</span>
                 </div>
                 <div className={Styles.PaymentPlanRight} style={{border: activeColor3}} onClick={selectPrice3}>
-                    <span className={Styles.PaymentDot}></span>
+                    <span className={Styles.PaymentDot} style={{background: activeDot3}}></span>
                     <div className={Styles.paymentHeader}><b>Monthly</b></div>
                     <div className={Styles.paymentPrice}>$68</div>
                     <div className={Styles.paymentTimeline}>Every Month</div>
