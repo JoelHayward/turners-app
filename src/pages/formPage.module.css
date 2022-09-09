@@ -1,0 +1,164 @@
+/* CSS FOR THE FULL PAGE */
+
+.CoverDetails1 {
+  /* width: 1920px; */
+  /* height: 2513px; */
+  flex-grow: 0;
+  background-color: #eee;
+}
+
+/* HEADER AND NAVIGATION BAR */
+
+.NavigationBar {
+  /* width: 1920px; */
+  display: flex;
+  height: 59px;
+  flex-grow: 0;
+  padding: 0 50px 0 43.4px;
+  background-color: #fff;
+}
+
+.image1 {
+  /* width: 243px; */
+  height: 59px;
+  margin: 0 1500.6px 0 0;
+}
+
+.Help {
+  width: 50px;
+  height: 28px;
+  margin: 10px 7px 0 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #404048;
+}
+
+.redQuestionMark {
+  width: 20.8px;
+  height: 20.8px;
+  margin-top: 10px;
+  /* background-color: #b50c2f; */
+}
+
+.Frame88 {
+  /* width: 1920px; */
+  display: flex;
+  height: 40px;
+  flex-grow: 0;
+  margin: 0px 0px 0px;
+  padding: 21px 200px 0px 200px;
+  background-color: #0071c4;
+}
+.CoverDetails {
+  /* width: 144px;
+  height: 28px; */
+  margin: 0 100px 0 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.YourQuote {
+  /* width: 121px; */
+  /* height: 28px; */
+  margin: 0px 200px 0px 200px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.YourDetails {
+  /* width: 131px; */
+  /* height: 28px; */
+  margin: 0px 200px 0px 200px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Finalise {
+  /* width: 84px; */
+  /* height: 28px; */
+  margin: 0px 0px 0px 200px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+
+
+
+
+/* FOOTER BAR */
+.Frame14 {
+  display: flex;
+  /* width: 1920px; */
+  height: 70px;
+  /* margin: 0px 0 0; */
+  padding: 16px 0px 0px 22px;
+  background-color: #0078c4;
+}
+
+.LogoWhite {
+  width: 38px;
+  height: 38.6px;
+  margin: 10px 1450px 0px 0px;
+}
+
+.HomeVector {
+  width: 35px;
+  height: 35px;
+  margin: 1.5px 30px 2.1px 30px;
+  /* background-color: #fff; */
+}
+
+.FBVector {
+  width: 15.5px;
+  height: 29.3px;
+  margin: 10px 30px 5.3px 30px;
+  /* background-color: #fff; */
+}
+
+.IGVector {
+  width: 30.1px;
+  height: 30.9px;
+  margin: 1.5px 30px 6.1px 30px;
+  /* background-color: #fff; */
+}
+
+.EmailVector {
+  width: 31.7px;
+  height: 25.2px;
+  margin: 6.4px 0 6.9px 30px;
+  /* background-color: #fff; */
+}

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import homestyles from "./home.module.css";
 import droparrow from "../icons/dropDownArrow.svg";
@@ -6,6 +6,7 @@ import translate from "../icons/translate.svg";
 import whiteSideArrow from "../icons/whiteSideArrow.svg";
 import greySideArrow from "../icons/greySideArrow.svg";
 import logo from "../images/logo.png";
+// import footer from "../images/homepageFooter.png";
 import bannerimg from "../images/BannerImage.png";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -94,16 +95,16 @@ export default function Home() {
         <span class={homestyles.Protectyouandyourlovedones}>
           Protect you and your loved ones
         </span>
-        <Link
+        <NavLink
           className="quoteLink"
           style={{ textDecoration: "none" }}
-          to="/quote"
+          to="/formPage"
         >
           <div class={homestyles.GetaQuote}>
             <span class={homestyles.GetaQuote2}>Get a Quote</span>
             <img class={homestyles.Vector3} src={whiteSideArrow} alt="Arrow to get a quote"></img>
           </div>
-        </Link>
+        </NavLink>
         <Button
           onClick={handleOpen}
           class={homestyles.RetrieveQuote2}
@@ -154,6 +155,9 @@ export default function Home() {
       <div>
         <Chatbot></Chatbot>
       </div>
+      {/* <div>
+  <img src={footer} alt="home page footer"></img>
+</div> */}
     </div>
   );
 }
