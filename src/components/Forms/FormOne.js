@@ -16,6 +16,9 @@ export default function FormOne() {
   const [fillSelected2, setFillSelected2] = useState("");
 
   const activeBackground = "#0071c4";
+ 
+
+
   // FIRST YES AND NO
   const confimYes1 = () => {
     if (fillSelected1 === activeBackground) {
@@ -215,7 +218,7 @@ export default function FormOne() {
             <div className={FormCSS.answer}>
               <button
                 className={FormCSS.Rectangle3610}
-                style={{ background: fillSelected1 }}
+                style={{ background: fillSelected1}}
                 onClick={confimYes1}
               >
                 <span className={FormCSS.Yes}>Yes</span>
