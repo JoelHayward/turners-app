@@ -25,7 +25,7 @@ export default function Finalise() {
     const [checked, setChecked] = useState(false) 
     const activeButton = () => setChecked(!checked)
 
-    // functions for setting the default plans 
+    // functions for setting the default plans and dots
 
     const [activeColor1, setActiveColor1] = useState({})
     const [activeColor2, setActiveColor2] = useState({})

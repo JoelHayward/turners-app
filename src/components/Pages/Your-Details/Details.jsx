@@ -13,7 +13,7 @@ export default function Details() {
     }; 
 
     const navigateProposal = () => {
-        navigate('/proposal')
+        navigate('/FormPage2')
     }; 
 
     // fucntion for enabling/disabling going to next page!
