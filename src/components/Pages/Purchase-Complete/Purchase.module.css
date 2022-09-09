@@ -1,0 +1,96 @@
+.headBanner{
+    background-size: contain;
+    background-image: url('./finalHeader.png');
+    /* border: solid red 2px; */
+    height: 160px; 
+    width: 100%;
+  } 
+  .PhotoContainer {
+    display: flex;
+    /* border: solid red 2px; */
+    flex-direction: column;
+    height: 80%; 
+    justify-content: center;
+    align-items: center;
+  }
+.ApplicationPhoto {
+width: 1059px;
+  height: 469px;
+  margin: 100px 430.5px 70px;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 4px 4px 0px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  background-image: url('./Frame 92.png');
+}
+.FamilyAd, .HireAd, .AuctionAd {
+  width: 65%;
+  height: 469px;
+  box-shadow: 4px 4px 0px 0 rgba(0, 0, 0, 0.25);
+  border: solid 1px #b9b9b9;
+  border-radius: 20px;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+}
+.FamilyPhoto {
+    width: 60%;
+    background-image:  url('./image 29.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 100%;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 75%, transparent 100%);
+}
+.textContainerOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+    text-align: left;
+    font-family: Roboto;
+    color: #404048;
+    font-size: 20px;
+}
+.textContainerHeader {
+  font-size: 25px;
+}
+.textContainerText, .textContainerQuestion, .textContainerHeader, .textContainerLink {
+    padding-left: 10%;   
+}
+.textContainerLink { 
+    color: blue; 
+    text-decoration: underline;
+}
+.HireAd {
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+.HirePhoto {
+    width: 60%;
+    background-image:  url('./image 30.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 100%;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1.0) 75%, transparent 100%);
+}
+.auctionPhoto {
+    width: 60%;
+    background-image:  url('./image 31.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -100px;
+    border-radius: 20px;
+    height: 100%;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 75%, transparent 100%);
+}
+.footer {
+    background-size: contain;
+    background-image: url('./Footer.png');
+    /* border: solid red 2px; */
+    height: 70px; 
+    width: 100%;
+  }
