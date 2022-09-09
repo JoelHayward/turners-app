@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState} from "react";
 import { useNavigate } from 'react-router-dom'
 import styles from "./FormTwo.module.css";
 import CheckGrey from "../../icons/CheckVectorGrey.svg";
@@ -19,6 +19,58 @@ export default function FormTwo() {
   const navigateDetails = () => {
       navigate('/Details')
   }; 
+
+
+   //SELECT YOUR QUOTE
+  const [quoteColor1, setquoteColor1] = useState({})
+  const [quoteColor2, setquoteColor2] = useState({})
+  const [quoteColor3, setquoteColor3] = useState({})
+
+  const activeBorder = "solid #0071c4 1px"
+
+const selectPrice1 = () => {
+      if (quoteColor1 === activeBorder) {
+          setquoteColor1('')      
+      } else {
+          setquoteColor1(activeBorder)
+          setquoteColor2('')
+          setquoteColor3('')
+      }
+  } 
+
+  const selectPrice2 = () => {
+      if (quoteColor2 === activeBorder) {
+          setquoteColor2('')      
+      } else {
+          setquoteColor2(activeBorder)
+          setquoteColor1('')
+          setquoteColor3('')
+      }
+  }
+
+  const selectPrice3 = () => {
+      if (quoteColor3 === activeBorder) {
+          setquoteColor3('')      
+      } else {
+          setquoteColor3(activeBorder)
+          setquoteColor2('')
+          setquoteColor1('')
+      }
+  }
+
+  //CONFIRM SELECTED PLAN
+  const [fillSelected,setFillSelected]=useState('');
+
+const activeBackground = "#0071c4"
+
+const confimQuote = () => {
+ if (fillSelected === activeBackground) {
+  setFillSelected('')
+ } else {
+  setFillSelected(activeBackground)
+}
+}
+
   return (
     <div>
       {/* LOAD BAR JSX */}
@@ -50,7 +102,7 @@ export default function FormTwo() {
 
         <div className={styles.mainContent}>
           <div className={styles.chooseQuote}>
-            <div class={styles.Frame90}>
+            <div class={styles.Frame90} style={{border: quoteColor1}} onClick={selectPrice1}>
               <div class={styles.Ellipse22}></div>
               <span class={styles.ThirdParty}>Third Party</span>
               <span class={styles.textstyle1}>$55</span>
@@ -79,7 +131,7 @@ export default function FormTwo() {
               </div>
             </div>
 
-            <div class={styles.Frame90}>
+            <div class={styles.Frame90} style={{border: quoteColor2}} onClick={selectPrice2}>
               <div class={styles.Ellipse42}></div>
               <span class={styles.Comprehensive}>Comprehensive</span>
               <span class={styles.textstyle1}>$68</span>
@@ -138,7 +190,7 @@ export default function FormTwo() {
               </div>
             </div>
           </div>
-          <div class={styles.Frame90}>
+          <div class={styles.Frame90 } style={{border: quoteColor3}} onClick={selectPrice3}>
             <div class={styles.Ellipse26}></div>
             <span class={styles.ThirdParty2}>Third Party Fire & Theft</span>
             <span class={styles.textstyle2}>$60</span>
@@ -177,7 +229,7 @@ export default function FormTwo() {
         </div>
       </div>
       <div className={styles.confirm}>
-        <div className={styles.ConfirmationButton}></div>
+        <div className={styles.ConfirmationButton} style={{background:fillSelected}} onClick={confimQuote}></div>
         <span class={styles.Confirmselectedplan}>Confirm selected plan</span>
       </div>
       {/* SECOND FRAME */}
