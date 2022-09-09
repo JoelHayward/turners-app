@@ -1,5 +1,6 @@
 import styles from './Details.module.css'
 import { useNavigate } from 'react-router-dom'
+import { useState } from 'react';
 
 export default function Details() {
 
@@ -8,12 +9,38 @@ export default function Details() {
     const navigate = useNavigate(); 
 
     const navigateFinalise = () => {
-        navigate('/finalise')
+        navigate('/finalise', {state:{name,lastName, number, email}})
     }; 
 
     const navigateProposal = () => {
         navigate('/proposal')
     }; 
+
+    // fucntion for enabling/disabling going to next page!
+    const [checked, setChecked] = useState(false) 
+    const activeButton = () => setChecked(!checked)
+        
+
+    // setting first name value
+    const [name, setName] = useState('')
+    const setFirstName = (e) => {
+        setName(e.target.value);  
+    }
+    // setting last name value 
+    const [lastName, setLastName] = useState('')
+    const setUserLastName = (e) => {
+        setLastName(e.target.value);  
+    }
+    // setting number 
+    const [number, setNumber] = useState('')
+    const setUserNumber = (e) => {
+        setNumber(e.target.value);  
+    }
+    //setting email 
+    const [email, setEmail] = useState('')
+    const setUserEmail = (e) => {
+        setEmail(e.target.value);  
+    }
 
 
     return (
@@ -26,24 +53,24 @@ export default function Details() {
                     <div className={styles.formOneTopRow}>
                       <div className={styles.firstName}>
                         <label> <b> First Name: </b> </label>
-                        <input type='text' name='First-Name' />
+                        <input type='text' name='First-Name' onChange={setFirstName}/>
                       </div>
                       <div className={styles.lastName}>
                     <label> <b>Last Name: </b>
-                        <input type='text' name='Last-Name' />
+                        <input type='text' name='Last-Name' onChange={setUserLastName}/>
                     </label>
                     </div>
                     </div>
                     <br />
                     <div className={styles.mobNumber}>
                     <label> <b> Mobile Number:</b>
-                        <input type='number' name='mob-number' /> 
+                        <input type='number' name='mob-number'onChange={setUserNumber} /> 
                     </label>
                     </div>
                     <br />
                     <div className={styles.emailAddress}>
                     <label> <b> Email Adddress: </b> 
-                        <input type='email' name='email' />
+                        <input type='email' name='email' onChange={setUserEmail} />
                     </label>
                     </div>
 
@@ -74,7 +101,7 @@ export default function Details() {
             </div>
         </div>
         <div className={styles.confirmButton}>
-            <input type='checkbox' />
+            <input type='checkbox' onChange={activeButton} />
             <span> 
                 I have read and agree to the terms and conditions.
             </span>
@@ -83,7 +110,7 @@ export default function Details() {
         <div className={styles.buttonContainer}>
             <button className={styles.backButton} onClick={navigateProposal}> Back
              </button>
-            <button className={styles.nextButton} onClick={navigateFinalise}> Next  
+            <button className={styles.nextButton} disabled={!checked} onClick={navigateFinalise}> Next  
             </button>
         </div>
         <div className={styles.footer} />
